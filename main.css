@@ -1,0 +1,103 @@
+html {
+    background-color: rgb(148, 164, 89);
+    color: rgb(47, 56, 50);
+}
+
+h1, h2 {
+    font-family: 'Passion One';
+    color: rgb(183, 67, 41);
+}
+
+h3 {
+    font-family: 'Passion One';
+    color: rgb(183, 67, 41);
+}
+
+p, li {
+    font-family: 'Noto Sans';
+    color: rgb(47, 56, 50);
+}
+
+li {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#poster {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#maincontainer {
+    margin: auto;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#jamesA, #frankieB, #rolenC, #habibDK, #collinF, #jakeF, #giacomoL, #rayAnnm, #russellR, #benT, #tatiannaT, #juniW, #redA, #blakeA, #isaiahB, #joelleB, #lucaE, #aidanF, #justinH, #emmaJ, #emmaL, #meghanM, #devinO {
+    margin-bottom: 5em;
+}
+
+#jamesABorder, #frankieBBorder, #rolenCBorder, #habibDKBorder, #collinFBorder, #jakeFBorder, #giacomoLBorder, #rayAnnMBorder, #russellRBorder, #benTBorder, #tatiannaTBorder, #juniWBorder, #redABorder, #blakeABorder, #isaiahBBorder, #joelleBBorder, #lucaEBorder, #aidanFBorder, #justinHBorder, #emmaJBorder, #emmaLBorder, #meghanMBorder, #devinOBorder {
+    padding-top: 0.5em;
+    font-family: 'Passion One';
+    color: rgb(73, 85, 77);
+}
+
+/* mobile */
+@media (min-width:320px)  {
+    .images {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .blurb {
+        font-size: 1.25em;
+    }
+
+    .links {
+        font-size: 1em;
+    }
+}
+/* tablet */
+@media (min-width:961px)  {
+
+}
+/* desktop */
+@media (min-width:1281px) {
+
+}
