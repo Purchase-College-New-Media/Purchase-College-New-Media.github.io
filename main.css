@@ -47,10 +47,13 @@ ul {
 
 #footer {
     text-align: center;
+    margin-top: 9em;
 }
 
 #jamesA, #frankieB, #rolenC, #habibDK, #collinF, #jakeF, #giacomoL, #rayAnnm, #russellR, #benT, #tatiannaT, #juniW, #redA, #blakeA, #isaiahB, #joelleB, #lucaE, #aidanF, #justinH, #emmaJ, #emmaL, #meghanM, #devinO {
     margin-bottom: 5em;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.1);
 }
 
 #jamesABorder, #frankieBBorder, #rolenCBorder, #habibDKBorder, #collinFBorder, #jakeFBorder, #giacomoLBorder, #rayAnnMBorder, #russellRBorder, #benTBorder, #tatiannaTBorder, #juniWBorder, #redABorder, #blakeABorder, #isaiahBBorder, #joelleBBorder, #lucaEBorder, #aidanFBorder, #justinHBorder, #emmaJBorder, #emmaLBorder, #meghanMBorder, #devinOBorder {
@@ -95,9 +98,85 @@ ul {
 }
 /* tablet */
 @media (min-width:961px)  {
+    .images {
+        width: 75%;
+    }
 
+    #poster {
+        width: 75%;
+    }
+
+    #maincontainer {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 2.25em;
+    }
+
+    p {
+        font-size: 3em;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    .blurb {
+        font-size: 3.75em;
+    }
+
+    .links {
+        font-size: 1.5em;
+    }
 }
 /* desktop */
 @media (min-width:1281px) {
+    .images {
+        width: 75%;
+    }
 
+    #poster {
+        width: 50%;
+    }
+
+    #maincontainer {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 8em;
+    }
+
+    h2 {
+        font-size: 6em;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .blurb {
+        font-size: 2.5em;
+    }
+
+    .links {
+        font-size: 2em;
+    }
 }
