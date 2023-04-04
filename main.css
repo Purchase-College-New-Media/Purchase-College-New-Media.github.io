@@ -26,6 +26,16 @@ ul {
     list-style-type: none;
 }
 
+a, a:visited{
+    font-family: 'Noto Sans';
+    color: rgb(47, 56, 50);
+}
+
+a:hover {
+    font-weight: bold;
+    color: rgb(42, 60, 48);
+}
+
 #header {
     text-align: center;
     width: 100%;
@@ -40,6 +50,12 @@ ul {
     margin-bottom: 2em;
 }
 
+.blurb {
+    text-align: left;
+    padding-top: 1em;
+    margin: auto;
+}
+
 #maincontainer {
     margin: auto;
     text-align: center;
@@ -50,21 +66,32 @@ ul {
     margin-top: 9em;
 }
 
-#jamesA, #frankieB, #rolenC, #habibDK, #collinF, #jakeF, #giacomoL, #rayAnnm, #russellR, #benT, #tatiannaT, #juniW, #redA, #blakeA, #isaiahB, #joelleB, #lucaE, #aidanF, #justinH, #emmaJ, #emmaL, #meghanM, #devinO {
+#jamesA, #frankieB, #rolenC, #habibDK, #collinF, #jakeF, #giacomoL, #rayAnnM, #russellR, #benT, #tatiannaT, #juniW, #redA, #blakeA, #isaiahB, #joelleB, #lucaE, #aidanF, #justinH, #emmaJ, #emmaL, #meghanM, #devinO {
     margin-bottom: 5em;
     padding: 1em;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(67, 77, 31, 0.1);
 }
 
 #jamesABorder, #frankieBBorder, #rolenCBorder, #habibDKBorder, #collinFBorder, #jakeFBorder, #giacomoLBorder, #rayAnnMBorder, #russellRBorder, #benTBorder, #tatiannaTBorder, #juniWBorder, #redABorder, #blakeABorder, #isaiahBBorder, #joelleBBorder, #lucaEBorder, #aidanFBorder, #justinHBorder, #emmaJBorder, #emmaLBorder, #meghanMBorder, #devinOBorder {
-    padding-top: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     font-family: 'Passion One';
     color: rgb(73, 85, 77);
+    cursor:pointer;
+}
+
+#jamesABorder:hover, #frankieBBorder:hover, #rolenCBorder:hover, #habibDKBorder:hover, #collinFBorder:hover, #jakeFBorder:hover, #giacomoLBorder:hover, #rayAnnMBorder:hover, #russellRBorder:hover, #benTBorder:hover, #tatiannaTBorder:hover, #juniWBorder:hover, #redABorder:hover, #blakeABorder:hover, #isaiahBBorder:hover, #joelleBBorder:hover, #lucaEBorder:hover, #aidanFBorder:hover, #justinHBorder:hover, #emmaJBorder:hover, #emmaLBorder:hover, #meghanMBorder:hover, #devinOBorder:hover {
+    background-color: rgba(67, 77, 31, 0.1);
+    font-weight: bold;
 }
 
 /* mobile */
 @media (min-width:320px)  {
     .images {
+        width: 75%;
+    }
+
+    .blurb {
         width: 75%;
     }
 
@@ -99,6 +126,10 @@ ul {
 /* tablet */
 @media (min-width:961px)  {
     .images {
+        width: 75%;
+    }
+
+    .blurb {
         width: 75%;
     }
 
@@ -141,6 +172,10 @@ ul {
 /* desktop */
 @media (min-width:1281px) {
     .images {
+        width: 75%;
+    }
+
+    .blurb {
         width: 75%;
     }
 
